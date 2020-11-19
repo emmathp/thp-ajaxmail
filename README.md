@@ -1,10 +1,9 @@
 # THP - Week8 - Project3 -  Projet : To do List with Ajax
-## François THIOUNN
+## Emma et Emilie
 
 ### Notes & Use
 
-> Heroku : https://stormy-retreat-42863.herokuapp.com/
-
+> Heroku : https://thp-ajaxmail.herokuapp.com/
 
 ## Projet : To do List with Ajax
   
