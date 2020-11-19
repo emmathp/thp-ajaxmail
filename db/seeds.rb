@@ -7,6 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
+
+Email.destroy_all
+
 5.times do
   Email.create(object: Faker::Beer.name, body: Faker::ChuckNorris.fact)
 end

@@ -63,3 +63,8 @@ tasks
 .statusTrue{
   text-decoration: line-through;
 }
+
+.columns {
+  display:flex;
+  justify-content: space-between;
+}

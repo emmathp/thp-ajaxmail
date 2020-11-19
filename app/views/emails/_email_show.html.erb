@@ -1,0 +1,6 @@
+<div class="email-content">
+<h2 class="object-mail"><%= email.object %></h2>
+<p class="body-mail"><%= email.body %></p>
+<a href="#" class="btn btn-info" data-method="GET", data-remote="true"> Marquer comme non-lu </a>
+<a href="<%=  email_path(email.id) %>" class="btn btn-danger"  data-confirm="Etes-vous surs de vouloir supprimer le event ?" data-method="DELETE", data-remote="true"> Supprimer </a>
+</div>
