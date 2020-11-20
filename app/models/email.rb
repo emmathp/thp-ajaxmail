@@ -1,4 +1,4 @@
 class Email < ApplicationRecord
-  validates :object
-  validates :body
+  validates :object, presence: true
+  validates :body, presence: true
 end
